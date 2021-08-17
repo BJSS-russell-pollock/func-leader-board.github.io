@@ -17,7 +17,7 @@
     "autoprefixer": "^10.3.1",
     "eslint": "7.32.0",
     "eslint-config-next": "11.0.1",
-    "husky": ">=6",
+    "husky": "^7.0.1",
     "lint-staged": ">=10",
     "postcss": "^8.3.6",
     "prettier": "2.3.2",
@@ -31,5 +31,8 @@
     "*.{js,ts,jsx,tsx,md,html,json,css}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
