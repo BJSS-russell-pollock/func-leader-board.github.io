@@ -1,16 +1,20 @@
 {
   "name": "test-leader-board",
-  "homepage": "https://func-leader-board.github.io/test-leader-board/",
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "lint": "next lint",
     "prepare": "husky install",
     "format": "prettier . --write"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-use-cookie": "^1.2.1"
   },
   "devDependencies": {
     "@types/react": "17.0.16",
@@ -31,8 +35,5 @@
     "*.{js,ts,jsx,tsx,md,html,json,css}": [
       "prettier --write"
     ]
-  },
-  "dependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
